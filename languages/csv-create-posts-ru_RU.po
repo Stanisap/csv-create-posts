@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+"PO-Revision-Date: \n"
+
+#: CSVImportPost.php:68
+msgid "Provided Post ID not found."
+msgstr "Указанный идентификатор записи не найден."
+
+#: CSVImportPost.php:114
+msgid "WP_Post object is not set."
+msgstr "Объект WP_Post не установлен."
+
+#: CSVImporter.php:19
+msgid "Import CSV"
+msgstr "Импорт CSV"
+
+#: CSVImporter.php:29
+msgid "Choose a CSV (.csv) file to upload, then click Upload file and import."
+msgstr ""
+"Выберите файл CSV (.csv) для загрузки, затем нажмите «Загрузить файл и импортировать»."
+
+#: CSVImporter.php:30
+msgid ""
+"Excel-style CSV file is unconventional and not recommended. LibreOffice has enough "
+"export options and recommended for most users."
+msgstr ""
+"CSV-файл в стиле Excel нестандартен и не рекомендуется. LibreOffice имеет достаточно "
+"возможностей экспорта и рекомендуется для большинства пользователей."
+
+#: CSVImporter.php:31
+msgid "Requirements:"
+msgstr "Требования:"
+
+#: CSVImporter.php:33
+msgid "Select UTF-8 as charset."
+msgstr "В качестве кодировки выберите UTF-8."
+
+#: CSVImporter.php:34
+msgid "You must use field delimiter as \"%s\""
+msgstr "Вы должны использовать разделитель полей как \"%s\""
+
+#: CSVImporter.php:35
+msgid "You must quote all text cells."
+msgstr "Данные ячейки/поля должны быть заключены в кавычки."
+
+#: CSVImporter.php:36
+msgid ""
+"The data must be entered in the following order: \"post_name\", \"post_content\", "
+"\"post_category1, post_category2, post_category3\", \"post_date\"."
+msgstr ""
+"Данные необходимо вводить в следующем порядке: \"post_name\", \"post_content\", "
+"\"post_category1, post_category2, post_category3\", \"post_date\"."
+
+#: CSVImporter.php:38
+msgid "Download example CSV files:"
+msgstr "Загрузить СSV файл для примера:"
+
+#: CSVImporter.php:39
+msgid "csv"
+msgstr ""
+
+#: CSVImporter.php:40
+msgid ""
+"(OpenDocument Spreadsheet file format for LibreOffice. Please export as csv before "
+"import)"
+msgstr ""
+"(Формат файла OpenDocument Spreadsheet для LibreOffice. Перед импортом экспортируйте "
+"как CSV)"
+
+#: CSVImporter.php:51 CSVImporter.php:55
+msgid "Sorry, there has been an error."
+msgstr "Извините, произошла ошибка."
+
+#: CSVImporter.php:56
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that this was "
+"caused by a permissions problem."
+msgstr ""
+"Не удалось найти файл экспорта в <code>%s </code>. Вероятно, это было вызвано проблемой "
+"с разрешениями."
+
+#: CSVImporter.php:96
+msgid "Failed to open file."
+msgstr "Не удалось открыть файл."
+
+#: CSVImporter.php:140
+msgid ""
+"Note: Allowed from 1 to 3 categories for a post, only 3 first categories will be "
+"registered. pots_name: %s"
+msgstr ""
+"Примечание: Допускается от 1 до 3 категорий для записи, будут зарегистрированы только 3 "
+"первые категории. pots_name: %s"
+
+#: CSVImporter.php:198
+msgid "Untitled"
+msgstr "Без названия"
+
+#: CSVImporter.php:199
+msgid "Processing \"%s\" done."
+msgstr "Обработка \"%s\" завершена."
+
+#: CSVImporter.php:219
+msgid "All Done."
+msgstr "Все выполнено."
+
+#: csv-create-posts.php:42
+msgid "Imports post names, contents of posts, categories and data, from csv file."
+msgstr "Импорт названия записи, содержимого поста, категорий и даты из csv файла."
